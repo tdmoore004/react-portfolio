@@ -1,0 +1,170 @@
+body {
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 0 0 100px;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Media queries for changing the body padding for footer and header space */
+@media only screen and (max-width: 1025px) {
+    body {
+        padding: 0 0 150px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        padding: 0 0 150px;
+    }
+}
+
+/* Navbar styles */
+.top-bar, .top-bar ul {
+    background: white;
+}
+
+/* Setting style for logo in navbar */
+nav#mainNavigation.top-bar {
+    max-height: 75px;
+    border-bottom: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+img#logo {
+    max-width: 300px;
+    margin: 5px;
+}
+
+/* Setting styles navbar menu */
+nav.title-bar {
+    background: white;
+}
+
+i.fas.fa-ellipsis-v {
+    font-size: 22px;
+}
+
+a.social-dropdown, a {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+li.host-logout a:hover {
+    color: #1779ba;
+}
+
+.dropdown.menu li.is-dropdown-submenu-parent a.social-dropdown::after {
+    display: none;
+}
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after {
+    display: none;
+}
+
+li.is-submenu-item.is-dropdown-submenu-item a {
+    color: black;
+    font-size: 16px;
+}
+
+li.is-submenu-item.is-dropdown-submenu-item a:hover {
+    color: #1779ba;
+}
+
+.is-dropdown-submenu {
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Media query for responsive navbar */
+@media only screen and (max-width: 650px) {
+    ul.dropdown.menu {
+        float: right;;
+    }
+    .top-bar .top-bar-left {
+        max-width: 200px;
+    }
+    .top-bar .top-bar-right {
+        max-width: 100px;
+    }
+    img#logo {
+        max-width: 225px;
+    }
+}
+
+/* Footer styles */
+footer.large.callout.secondary {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: #c2c2c23a;
+    color: black;
+}
+
+img.footer-logo {
+    max-width: 275px;
+}
+
+figcaption.copyright {
+    font-size: 14px;
+    margin: 0;
+}
+
+figure.large-4.cell.copyright {
+    font-size: 18px;
+    align-content: left;
+}
+
+nav.large-8.cell.logo-links {
+    font-size: 18px;
+    text-align: right;
+    padding: 10px 0;
+}
+
+nav.large-8.cell.logo-links.hidden-large {
+    display: none;
+}
+
+.fab.fa-linkedin-in, .fab.fa-github {
+    font-size: 25px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1023px) {
+    footer.large.callout.secondary {
+        text-align: center;
+    }
+
+    figure.large-4.cell.copyright {
+        align-content: center;
+        font-size: 16px;
+    }
+
+    nav.large-8.cell.logo-links.hidden-large {
+        display: block;
+        text-align: center;
+        margin: 0 0 15px;
+        padding: 0;
+    }
+
+    nav.large-8.cell.logo-links.hidden-medium {
+        display: none;
+    }
+
+    i.fab.fa-linkedin-in, i.fab.fa-github {
+        text-align: center;
+    }
+
+    img.footer-logo {
+        max-width: 240px;
+    }
+}
