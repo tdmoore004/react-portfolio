@@ -160,7 +160,7 @@ nav.large-8.cell.logo-links.hidden-large {
         display: none;
     }
 
-    i.fab.fa-linkedin-in, i.fab.fa-github {
+    .fab.fa-linkedin-in, .fab.fa-github {
         text-align: center;
     }
 
