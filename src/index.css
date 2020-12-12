@@ -47,7 +47,7 @@ nav.title-bar {
     background: white;
 }
 
-i.fas.fa-ellipsis-v {
+.fas.fa-ellipsis-v {
     font-size: 22px;
 }
 
@@ -88,13 +88,19 @@ li.is-submenu-item.is-dropdown-submenu-item a:hover {
         float: right;;
     }
     .top-bar .top-bar-left {
-        max-width: 200px;
+        max-width: 300px;
     }
     .top-bar .top-bar-right {
         max-width: 100px;
     }
     img#logo {
         max-width: 225px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .top-bar .top-bar-left {
+        max-width: 250px;
     }
 }
 
