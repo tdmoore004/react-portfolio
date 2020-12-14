@@ -2,24 +2,24 @@ body {
     min-height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    padding: 0 0 100px;
+    padding: 75px 0 100px;
     position: relative;
 }
 
-h2 {
+h2, h3, h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Media queries for changing the body padding for footer and header space */
 @media only screen and (max-width: 1025px) {
     body {
-        padding: 0 0 150px;
+        padding: 75px 0 150px;
     }
 }
 
 @media only screen and (max-width: 650px) {
     body {
-        padding: 0 0 150px;
+        padding: 75px 0 150px;
     }
 }
 
@@ -29,7 +29,7 @@ h2 {
 }
 
 /* Setting style for logo in navbar */
-nav#mainNavigation.top-bar {
+header#mainNavigation.top-bar {
     max-height: 75px;
     border-bottom: 2px;
     position: fixed;
@@ -90,9 +90,6 @@ li.is-submenu-item.is-dropdown-submenu-item a:hover {
     .top-bar .top-bar-left {
         max-width: 300px;
     }
-    .top-bar .top-bar-right {
-        max-width: 100px;
-    }
     img#logo {
         max-width: 225px;
     }
@@ -102,6 +99,57 @@ li.is-submenu-item.is-dropdown-submenu-item a:hover {
     .top-bar .top-bar-left {
         max-width: 250px;
     }
+}
+
+/* About page styles */
+main.card.grid-container.grid-x.align-center.about {
+    width: 95%;
+    max-width: 1000px;
+    align-self: center;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+h3.card-divider.about {
+    background-color: transparent;
+    border-bottom: 1px solid #1779ba;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.card-section.about {
+    padding: 20px 10px 10px;
+}
+
+img#profilePic {
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+}
+
+a.resumeLink {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #1779ba;
+}
+
+/* Contact page styles */
+main.card.grid-container.grid-x.align-center.contact {
+    width: 95%;
+    max-width: 600px;
+    align-self: center;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+h3.card-divider.contact {
+    background-color: transparent;
+    border-bottom: 1px solid #1779ba;
+    margin: 0px;
+    padding: 0px;
+}
+
+section.card-section.contact {
+    padding: 20px 10px 10px;
 }
 
 /* Footer styles */

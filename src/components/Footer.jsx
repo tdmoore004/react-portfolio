@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/logos/tannermoore_productions.png";
+import Logo from "../assets/images/logos/tannermoore_productions.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";

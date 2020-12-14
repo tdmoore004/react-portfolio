@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Logo from "../images/logos/tannermoore_name.png";
+import nameLogo from "../assets/images/logos/tannermoore_name.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import $ from "jquery";
@@ -16,7 +16,7 @@ class Header extends Component {
             <header className="top-bar" id="mainNavigation">
                 <figure className="top-bar-left">
                     <a href="/">
-                        <img id="logo" src={Logo} alt="Tanner Moore Logo" loading="lazy">
+                        <img id="logo" src={nameLogo} alt="Tanner Moore Logo" loading="lazy">
                         </img>
                     </a>
                 </figure>
