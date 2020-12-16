@@ -188,6 +188,14 @@ section.card-section.contact {
     padding: 20px 10px 10px;
 }
 
+h5.aboutMe {
+    margin: 0px 0px 10px;
+}
+
+p.aboutMe.cell {
+    margin: 0px 10px 10px 16px;
+}
+
 /* Footer styles */
 footer.large.callout.secondary {
     position: absolute;

@@ -48,8 +48,8 @@ class Header extends Component {
                         <li>
                             <a className="social-dropdown">Social</a>
                             <ul className="nested vertical menu">
-                            <li><a href="https://www.linkedin.com/in/tdmoore004/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://github.com/tdmoore004" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/tdmoore004/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                            <li><a href="https://github.com/tdmoore004" target="_blank" rel="noreferrer">GitHub</a></li>
                             </ul>
                         </li>
                     </ul>

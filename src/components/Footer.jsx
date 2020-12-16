@@ -10,10 +10,10 @@ const Footer = () => {
             <div className="grid-container grid-x">
                 {/* Footer social icons (only shows on medium or smaller screens). */}
                 <nav className="large-8 cell logo-links hidden-large">
-                    <a className="footer-links" href="https://www.linkedin.com/in/tdmoore004/">
+                    <a className="footer-links" href="https://www.linkedin.com/in/tdmoore004/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon className="fab fa-linkedin-in" icon={faLinkedinIn} />
                     </a>
-                    <a className="footer-links" href="https://github.com/tdmoore004">
+                    <a className="footer-links" href="https://github.com/tdmoore004" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon className="fab fa-github" icon={faGithub} />
                     </a>
                 </nav>
@@ -27,10 +27,10 @@ const Footer = () => {
                 </figure>
                     {/* Footer social icons (only shows on large or bigger screens). */}
                     <nav className="large-8 cell logo-links hidden-medium">
-                        <a className="footer-links" href="https://www.linkedin.com/in/tdmoore004/">
+                        <a className="footer-links" href="https://www.linkedin.com/in/tdmoore004/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon className="fab fa-linkedin-in" icon={faLinkedinIn} />
                         </a>
-                        <a className="footer-links" href="https://github.com/tdmoore004">
+                        <a className="footer-links" href="https://github.com/tdmoore004" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon className="fab fa-github" icon={faGithub} />
                         </a>
                     </nav>
