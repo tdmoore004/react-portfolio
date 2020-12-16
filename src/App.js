@@ -15,13 +15,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Header/>
           <Switch>
             <Route exact path="/" component={About}/>
             <Route exact path="/portfolio" component={Portfolio}/>
             <Route exact path="/contact" component={Contact}/>
           </Switch>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );

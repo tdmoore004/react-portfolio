@@ -14,9 +14,13 @@ import FitnessTrackerGif from "../assets/images/fitness-tracker-screen-recording
 const Portfolio = () => {
     return (
         <main className="card grid-container grid-x align-center portfolio">
+
+            {/* Page Header */}
             <h3 className="card-divider">
                 Portfolio
             </h3>
+
+            {/* Project Highlights */}
             <section className="card-section">
                 <div className="grid-x grid-margin-x medium-up-2">
                     <Project
@@ -63,6 +67,7 @@ const Portfolio = () => {
                     />
                 </div>
             </section>
+            
         </main>
     )
 }

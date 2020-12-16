@@ -1,5 +1,6 @@
 import React from "react";
 
+// Reusable project component for each of my highlighted projects.
 const Project = (props) => {
     return (
         <div className="cell">
