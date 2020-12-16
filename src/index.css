@@ -6,7 +6,7 @@ body {
     position: relative;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -110,7 +110,7 @@ main.card.grid-container.grid-x.align-center.about {
     border: none;
 }
 
-h3.card-divider.about {
+h3.card-divider {
     background-color: transparent;
     border-bottom: 1px solid #1779ba;
     margin: 0px;
@@ -132,20 +132,55 @@ a.resumeLink {
     color: #1779ba;
 }
 
-/* Contact page styles */
-main.card.grid-container.grid-x.align-center.contact {
+/* Portfolio page styles */
+main.card.grid-container.grid-x.align-center.portfolio {
     width: 95%;
-    max-width: 600px;
+    max-width: 1500px;
     align-self: center;
     border-radius: 5px 5px 5px 5px;
     border: none;
 }
 
-h3.card-divider.contact {
+h4.card-divider {
     background-color: transparent;
-    border-bottom: 1px solid #1779ba;
     margin: 0px;
     padding: 0px;
+}
+
+h4.card-divider a {
+    font-size: 25px;
+    color: #1779ba;
+}
+
+div.card.web-dev {
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+img.web-dev-photo {
+    padding: 0px 0px
+}
+
+div.card-section.portfolio {
+    padding: 15px 10px 20px;
+}
+
+h5.github {
+    padding: 10px 0px 0px;
+}
+
+h5.github a {
+    font-size: 20px;
+    color: #1779ba;
+}
+
+/* Contact page styles */
+main.card.grid-container.grid-x.align-center.contact {
+    width: 95%;
+    max-width: 650px;
+    align-self: center;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
 }
 
 section.card-section.contact {

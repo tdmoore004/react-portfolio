@@ -5,9 +5,9 @@ const About = () => {
     return (
         <main className="card grid-container grid-x align-center about">
             <h3 className="card-divider about">
-                Full-stack web developer &amp; digital media guru...
+                Full-Stack Web Developer &amp; Digital Media Guru...
             </h3>
-            <section className="card-section about">
+            <section className="card-section">
                 <img id="profilePic" src={profilePic} alt="Tanner Moore Profile Picture" loading="lazy" />
                 <p className="aboutMe">Capable of designing a logo to highlight your brand while also developing a polished and responsive webpage to attract clients.</p>
                 <p className="aboutMe">Worked my way through college, earning a Bachelor of Science in communication, with a minor in design, as well as a certificate in full-stack web development from the University of Utah. Experienced with front-end web development technologies such as HTML, CSS and JavaScript as well as key layout and design principles.</p>
