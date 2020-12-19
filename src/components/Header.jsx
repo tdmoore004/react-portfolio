@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 // Importing name logo for header.
 import nameLogo from "../assets/images/logos/tannermoore_name.png";
@@ -25,10 +26,10 @@ class Header extends Component {
                 <figure className="top-bar-left">
 
                     {/* Name logo and link back to about. */}
-                    <a href="/react-portfolio">
+                    <Link to="/react-portfolio">
                         <img id="logo" src={nameLogo} alt="Tanner Moore Logo" loading="lazy">
                         </img>
-                    </a>
+                    </Link>
 
                 </figure>
 
@@ -42,9 +43,9 @@ class Header extends Component {
                 {/* Navbar menu */}
                 <nav className="top-bar-right" id="nav-menu">
                     <ul className="dropdown vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
-                        <li><a href="/react-portfolio">About</a></li>
-                        <li><a href="/react-portfolio/portfolio">Portfolio</a></li>
-                        <li><a href="/react-portfolio/contact">Contact</a></li>
+                        <li><Link to="/react-portfolio">About</Link></li>
+                        <li><Link to="/react-portfolio/portfolio">Portfolio</Link></li>
+                        <li><Link to="/react-portfolio/contact">Contact</Link></li>
                         <li>
                             <a className="social-dropdown">Social</a>
                             <ul className="nested vertical menu">
